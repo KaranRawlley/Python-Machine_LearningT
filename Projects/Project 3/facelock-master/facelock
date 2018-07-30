@@ -1,0 +1,4 @@
+#!/bin/sh
+python2 facelock.py &
+PID=$!
+alock -auth pam; kill -9 $PID

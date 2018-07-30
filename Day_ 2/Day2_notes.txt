@@ -1,0 +1,90 @@
+     date : 07/04/2018      serial no. 12
+
+Operators
+
+Mathematical
+=> // : Perform floor division
+=> ** : raise to power
+Relational 
+=> <>
+Assignment
+=> **=
+=> //=
+Logical
+=> and
+=> or
+=> not
+Membership operators
+=>in : true if a var is in  a seq of another var
+=> not in : returns true if a var is not in seq of another var
+
+
+** if(a in list) :
+     print()
+
+   else:
+     print()   #indentation matters
+Identity operator
+=> is : true if identity of two operands are same
+=> is not : true if identity of two operands are not same 
+   
+
+** '''  ______ ''' (Triple is used for multiline comments)
+
+INPUT
+
+# input("msg") fn is used for geeting input from the user using  
+
+OUTPUT
+
+# print() 
+  => type 1 : print("djf")
+  => type 2 : print("djs",a)
+  => type 3 : print(*objects,sep='',end''\n)  ## separation symbol used b/w objects , end is of end of print ##print('dgjk','gadkcg','gacjk',sep=' & ',end=' $')
+  => type 4 : print('The value of x is {} and y is {} '.format(x,y))
+               x,y=6,8
+              print('The value of x is {0} and y is {1} '.format(x,y)) ## using indexing 
+
+IMPORT
+
+# import math as m  ** used for importing a module 
+
+  => import math as a
+     m=a.pi
+     print(a.pi)
+
+  => from math import pi
+     print(2*pi)
+     
+  =>  from math import *   
+
+RANDOM package
+
+
+Conditional Statements
+
+  => if statement ## if x==5 : 
+  => if - else statement
+      ** if exp:
+            sta
+         elif exp:
+             sta
+         else
+             sta     
+
+LOOPS
+
+  => for loop - for loop_var in seq : 
+                    sta
+               ## for i in range(5):
+                    print(i) 
+
+  => while loop - while exp
+                   sta
+
+
+ Control flow statement
+ 
+  => break 
+  => continue
+  => pass - used when statement is req syntactically , is null operation                                        

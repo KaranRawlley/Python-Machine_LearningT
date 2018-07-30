@@ -1,0 +1,52 @@
+
+      Date : 07/10/2018
+
+
+Exception Handling 
+
+=> try : 
+      sta .... 
+   except Exception1 :
+      sta ....    
+
+   else:
+       if no exception then execute
+
+
+=> strip() used to print line eg . print(line.strip())
+
+
+Finally statement
+
+=> is executed no maater what , and gen used to release external resources
+=> it is intended to define clean up actions that must be exexuted under all circumstances
+
+
+Iterators
+
+=> Iterators are objects that can be iterated upon 
+    * __iter__  
+    * __next__
+    * reversed()
+
+Opening and Closing of files
+
+=> open() func 
+     fileobject = open(file_name,access_mode)
+=> close() func 
+      fileobject.close()
+=> write() func
+      fileobj.write()
+
+
+ GUI programming
+ 
+ =>Tkinter - is a python interface to the Tk GUI toolkit shipped with python 
+
+        import tkinter
+        top = tkinter.Tk()#code to add widgets will go here 
+        top.mainloop()     
+      
+
+
+hw remote, file, grp

@@ -1,0 +1,1 @@
+Ols (ordinary least squares) model

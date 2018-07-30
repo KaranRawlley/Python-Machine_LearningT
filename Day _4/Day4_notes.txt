@@ -1,0 +1,58 @@
+       date : 07/09/2018
+
+   CLASS
+
+=> class keyword is used to define a new class
+   syntax : class Class_name:
+                  sta
+                  sta
+
+
+=> Object : instance of an class
+
+=>accesing object var
+
+          eg : class MyClass:
+                     var = 'kh'
+                     def func(self)
+                          print("this is a message")
+
+                obj = MyClass()
+                obj.var          
+
+=> 'self' is the python version of 'this'                 
+
+=> Initializer (constructor in python)
+     
+       class func which begins with double underscore(__)
+
+       _init_() func
+
+       eg. def _init_(self,r=0,q=0):
+                  self.real=r
+                  self.img=i
+
+
+  INHERITANCE
+
+
+=>isinstance() checks if the object(fist argument) is an instance or subclass of classinfo class (second argument)
+
+    eg. isinstance(object,classinfo)
+
+=> issubclass(object,classinfo)
+     true if object is a subclass of classinfo 
+      eg.  print(issubclass(car,mc))   
+
+    MULTIPLE INHERITENCE
+
+=> class father:
+           sta
+   class mother:
+           sta
+   class child(father,mother) 
+            sta
+
+
+=> __str__() used for returning data elements
+=> super() is used for refrencing an object of super class for overriding data elements

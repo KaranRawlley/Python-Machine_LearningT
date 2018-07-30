@@ -1,0 +1,65 @@
+    date : 07/05/2018
+
+
+
+Function
+
+=> def Name(Parameters):
+       Statement
+
+
+   eg.   def naam(n):
+         for i in range(n):
+                  print("Hola Amigos")
+        
+         naam(10)    #function calling
+
+ => Function Calling
+      
+      % Call by Value  (normally) 
+      % Call by Reference 
+
+ => Function Arguments
+      Required
+      Default
+      Keyword args
+
+      eg. def tri(l=11,b=9):
+               area = l*b
+               print(l)
+               print(b)
+               a2 = 0.5*l*b
+               return area,a2
+     
+          print(tri(b=6,l=9))        
+
+
+Dictionary
+
+=> using dict() function 
+
+
+      eg. d= dict(name=rick,id=23)         
+
+=> add another dictionary to another
+     d = dict(n=12,h=13)
+     f = dict(y=8,**d)
+
+
+
+
+      using dict enter family members(min 5) details (name , age)
+       user age or name 
+       res name or age resp 
+      if(age1==age2 )print both     
+          
+List
+   
+    =>len(list)
+    =>[1,2,3]+[5,6,7] concatination
+    => in
+    => l[0:len(l):2]     => l[start:end:step]
+    => list(seq)  #tuple to be converted into list
+    => l.append(89)
+    => l.insert(0,89)
+    => l.extend()
