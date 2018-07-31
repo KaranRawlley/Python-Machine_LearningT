@@ -27,7 +27,7 @@ print(ageDict)
 
 
 
-## findall() returns string no of times of ouccrance 
+## findall() returns string no of times of ouccurence 
 
  allinform = re.findall('inform','we need informto inform hinformim with the latest information')
  print(allinform)
@@ -92,7 +92,7 @@ print(nstr)
 	
 ## NAme validaTION
 fn = 'Mayank Jha'
-if(re.findall('\w*\s',fn)):
+if(re.findall('\w*\s\w*',fn)):
      print('Valid')
 else:
     print('not valid')

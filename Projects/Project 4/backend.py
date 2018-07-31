@@ -16,27 +16,27 @@ x=df[features]
 
 
 
-def logisReg(p,b,i,f,c):
+def logisReg(a,b,c,d,e):
     model=LogisticRegression()
     model.fit(x,y)
-    return (model.predict([[p,b,i,f,c]])[0])
+    return (model.predict([[a,b,c,d,e]])[0])
     
-def deciReg(p,b,i,f,c):
+def deciReg(a,b,c,d,e):
     model=tree.DecisionTreeClassifier()
     model=model.fit(x,y)
-    return (model.predict([[p,b,i,f,c]])[0])
+    return (model.predict([[a,b,c,d,e]])[0])
 
-def randfor(p,b,i,f,c):
+def randfor(a,b,c,d,e):
     clf=RandomForestClassifier(n_estimators=10)
     clf=clf.fit(x,y)
-    return (clf.predict([[p,b,i,f,c]])[0])
+    return (clf.predict([[a,b,c,d,e]])[0])
 
-def svmReg(p,b,i,f,c):
+def svmReg(a,b,c,d,e):
     clf=svm.SVC(kernel='linear',C=2.0).fit(x,y)
-    return (clf.predict([[p,b,i,f,c]])[0])
+    return (clf.predict([[a,b,c,d,e]])[0])
 
-def finalM(n,p,b,i,f,c,h):
+def finalM(n,a,b,c,d,e):
     global df
-    df.loc[len(df)] = [n,p,b,i,f,c,h]
+    df.loc[len(df)] = [n,a,b,c,d,e]
     df.to_csv('PerpData1.csv',encoding='utf-8', index=False)
     

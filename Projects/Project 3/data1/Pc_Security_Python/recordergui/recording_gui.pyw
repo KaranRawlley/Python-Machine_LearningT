@@ -121,7 +121,7 @@ info_label.pack(ipadx=30)
 
 fullpath_list = []
 
-root_dir = r"D:\Machine Learning\Summer Training\Python_T\Projects\Project 5"
+root_dir = r"D:\Machine Learning\Summer Training\Python_T\Training\Projects\Project 3\data1\Pc_Security_Python\recordergui"
 
 extension = '.avi'
 

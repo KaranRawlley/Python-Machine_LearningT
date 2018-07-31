@@ -48,23 +48,8 @@ def sqrt(Event):
     x=float(textin.get())
     sqrt = x**0.5
     textin.set(sqrt)    
-# def eqbut():
-#     global operator
-#     div=str(eval(operator))
-#     textin.set(div)
-#     operator=''
-#     
-# def eqbut():
-#     global operator
-#     mod=str(eval(operator))
-#     textin.set(mod)
-#     operator=''
-#     
-# def eqbut():
-#     global operator
-#     sq=str(eval(operator))
-#     textin.set(sq)
-#     operator=''    
+
+   
     
 def clrbut():
     global operator

@@ -11,21 +11,21 @@ def logistic():
         L11['text']='Not Hired'
 
 def decision():
-    if deciReg(E2.get(),E3.get(),E4.get(),E5.get(),E6.get())>0.5:
+    if deciReg(E2.get(),E3.get(),E4.get(),E5.get(),E6.get()):
         L12['text']='Hired'
     else:
         L12['text']='Not Hired'
     
 
 def randomfor():
-    if randfor(E2.get(),E3.get(),E4.get(),E5.get(),E6.get())>0.5:
+    if randfor(E2.get(),E3.get(),E4.get(),E5.get(),E6.get()):
         L13['text']='Hired'
     else:
         L13['text']='Not Hired'
         
 
 def svm():
-    if svmReg(E2.get(),E3.get(),E4.get(),E5.get(),E6.get())>0.5:
+    if svmReg(E2.get(),E3.get(),E4.get(),E5.get(),E6.get()):
         L14['text']='Hired'
     else:
         L14['text']='Not Hired'
@@ -59,22 +59,22 @@ topFrame = Frame(root,bg='#2f4f4f')
 Label(topFrame,text='Recruitment',bg="#2f4f4f",fg='White',borderwidth='0',relief='ridge',font=('Times',30)).grid(row=0,column=1,columnspan=5,pady=10,ipadx=60)
 topFrame.pack()
 
-middleFrame=Frame(root,bg="#eee5de")
-l1=Label(middleFrame,text='Name : ',bg='#eee5de',fg='black',font=("Comic Sans MS", 15)).grid(row=1,pady=20,sticky=E)
-l2=Label(middleFrame,text='Percentage : ',bg='#eee5de',fg='black',font=('Comic Sans MS',15)).grid(row=2,pady=15,sticky=E)
-l3=Label(middleFrame,text='Backlogs : ',fg='black',bg='#eee5de',font=('Comic Sans MS',15)).grid(row=3,pady=15,sticky=E)
-l4=Label(middleFrame,text='Internship : ',fg='black',bg='#eee5de',font=('Comic Sans MS',15)).grid(row=4,pady=15,sticky=E)
-l5=Label(middleFrame,text='FirstRound : ',fg='black',bg='#eee5de',font=('Comic Sans MS',15)).grid(row=5,pady=15,sticky=E)
-l5=Label(middleFrame,text='Communication : ',fg='black',bg='#eee5de',font=('Comic Sans MS',15)).grid(row=6,pady=15,padx=10,sticky=E)
+middleFrame=Frame(root,bg="#ffebcd")
+l1=Label(middleFrame,text='Name : ',bg='#ffebcd',fg='black',font=("Comic Sans MS", 15)).grid(row=1,pady=20,sticky=E)
+l2=Label(middleFrame,text='Percentage : ',bg='#ffebcd',fg='black',font=('Comic Sans MS',15)).grid(row=2,pady=15,sticky=E)
+l3=Label(middleFrame,text='Backlogs : ',fg='black',bg='#ffebcd',font=('Comic Sans MS',15)).grid(row=3,pady=15,sticky=E)
+l4=Label(middleFrame,text='Internship : ',fg='black',bg='#ffebcd',font=('Comic Sans MS',15)).grid(row=4,pady=15,sticky=E)
+l5=Label(middleFrame,text='FirstRound : ',fg='black',bg='#ffebcd',font=('Comic Sans MS',15)).grid(row=5,pady=15,sticky=E)
+l5=Label(middleFrame,text='Communication : ',fg='black',bg='#ffebcd',font=('Comic Sans MS',15)).grid(row=6,pady=15,padx=10,sticky=E)
 
 E1,E2,E3,E4,E5,E6=StringVar(),IntVar(),IntVar(),IntVar(),IntVar(),IntVar()
 
-e1=Entry(middleFrame,font=('',13),textvariable=E1,width = 16).grid(row=1,column=1)
-e2=Entry(middleFrame,font=('',13),textvariable=E2,width = 16).grid(row=2,column=1)
-e3=Entry(middleFrame,font=('',13),textvariable=E3,width = 16).grid(row=3,column=1)
-e4=Entry(middleFrame,font=('',13),textvariable=E4,width = 16).grid(row=4,column=1)
-e5=Entry(middleFrame,font=('',13),textvariable=E5,width = 16).grid(row=5,column=1)
-e6=Entry(middleFrame,font=('',13),textvariable=E6,width = 16).grid(row=6,column=1)
+e1=Entry(middleFrame,font=('',13),textvariable=E1,width = 16,bd=4).grid(row=1,column=1)
+e2=Entry(middleFrame,font=('',13),textvariable=E2,width = 16,bd=4).grid(row=2,column=1)
+e3=Entry(middleFrame,font=('',13),textvariable=E3,width = 16,bd=4).grid(row=3,column=1)
+e4=Entry(middleFrame,font=('',13),textvariable=E4,width = 16,bd=4).grid(row=4,column=1)
+e5=Entry(middleFrame,font=('',13),textvariable=E5,width = 16,bd=4).grid(row=5,column=1)
+e6=Entry(middleFrame,font=('',13),textvariable=E6,width = 16,bd=4).grid(row=6,column=1)
 
 
 
