@@ -5,7 +5,7 @@ exercise.py  done
 age calc     done
 calc         done
 bookstore    done
-website blocker   ***
-comp security     Ghanta **** 
-ml project
-video player
+website blocker  done
+comp security     done
+ml project     done
+video player      done

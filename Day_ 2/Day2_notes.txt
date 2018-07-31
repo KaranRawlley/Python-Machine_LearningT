@@ -33,7 +33,7 @@ Identity operator
 
 INPUT
 
-# input("msg") fn is used for geeting input from the user using  
+# input("msg") fn is used for geting input from the user using  
 
 OUTPUT
 

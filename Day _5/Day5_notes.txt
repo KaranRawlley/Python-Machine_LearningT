@@ -18,8 +18,8 @@ Exception Handling
 
 Finally statement
 
-=> is executed no maater what , and gen used to release external resources
-=> it is intended to define clean up actions that must be exexuted under all circumstances
+=> is executed no mater what , and gen used to release external resources
+=> it is intended to define clean up actions that must be executed under all circumstances
 
 
 Iterators
