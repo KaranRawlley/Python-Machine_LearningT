@@ -18,7 +18,7 @@ Eg
 import sqlite3 as sq
 conn =sq.connect('cources.db')
 cursor = conn.cursor()
-cursor.execute("""CREATE TABLE courses(number INTERGER PRIMARY KEY,name text,ects real);""")
+cursor.execute("""CREATE TABLE courses(number INTEGER PRIMARY KEY,name text,ects real);""")
 cursor.execute("""INSERT INTO courses VALUES('o282o',"Python Programming",5 );""")
 conn.commit()
 
