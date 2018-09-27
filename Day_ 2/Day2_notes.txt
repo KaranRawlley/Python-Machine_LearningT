@@ -40,7 +40,8 @@ OUTPUT
 # print() 
   => type 1 : print("djf")
   => type 2 : print("djs",a)
-  => type 3 : print(*objects,sep='',end='\n')  ## separation symbol used b/w objects , end is of end of print ##print('dgjk','gadkcg','gacjk',sep=' & ',end=' $')
+  => type 3 : print(*objects,sep='',end='\n')  ## separation symbol used b/w objects ,
+              end is of end of print ## print('dgjk','gadkcg','gacjk',sep=' & ',end=' $')
   => type 4 : print('The value of x is {} and y is {} '.format(x,y))
                x,y=6,8
               print('The value of x is {0} and y is {1} '.format(x,y)) ## using indexing 
